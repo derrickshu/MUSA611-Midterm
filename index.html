@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div id="sidebar" style="position: absolute; top:0; left: 0; width: 400px; height: 100%; background-color: #f0f0f0">
+      <h1 id="title">Philadelphia Shootings</h1>
+      <p id="description">This website shows the distribution of shooting crimes from 2015 to 2020.</p>
+      <button id="previousButton" style="display: none;     background-color: #30728C;">< PREVIOUS</button>
+      <button id="nextButton" style="background-color: #30728C;">NEXT > </button>
+    </div>
+    <!-- Map -->
+    <div id="map" class="map"></div>
+    <!-- Javascript Imports -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
